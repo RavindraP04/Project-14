@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap');
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F2F0;
+}
+/* navbar_section */
+.navbar{
+    margin: 4% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+    /* z-index: 1; */
+}
+.navbar div img{
+    height: 32px;
+}
+.nav-lists i{
+    display: none;
+}
+.nav-lists a{
+    cursor: pointer;
+    margin-left: 60px;
+    font-family: "Poppins";
+    font-size: 13px;
+}
+.nav-lists a{
+    color: #828282;
+}
+.nav-lists a:first-child{
+    color: #333333;
+    font-weight: 500;
+}
+.line{
+    width: 24%;
+    position: relative;
+    left: 40px;
+    height: 2px;
+    background-color: #333333c4;
+    border-radius: 25%;
+    margin-left: 300px;
+}
+
+/* hero_sec */
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+.big-img{
+    height: 772px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.social{
+    position: relative;
+    left: 190px;
+}
+.social a{
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    margin-left: 20px;
+}
+.social a img{
+    height: 16px;
+}
+.big-text{
+    position: relative;
+    left: 15%;
+    margin-top: -20px;
+    font-family: "Merriweather";
+    font-size: 55px;
+    color: #333333;
+    font-weight: 900;
+}
+.top-text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: #333333bd;
+}
+.bottom-text{
+    position: relative;
+    top: -20px;
+    margin-left: 100px;
+}
+.small-text{
+    position: relative;
+    left: 18%;
+    margin-top: 150px;
+}
+.small-text h2{
+    font-family: "Merriweather";
+    font-weight: 300;
+    color: #828282;
+    max-width: 70px;
+    padding-bottom: 40px;
+}
+.small-text button{
+    background-color: #333333;
+    color: #ffffff;
+    font-family: "Montserrat";
+    border: 1px solid #333333;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 60px;
+    cursor: pointer;
+}
+.small-text button:hover{
+    box-shadow: 0 0 5px #333333d8;
+    transition: all 0.3s ease;
+}
+
+
+/* timeline */
+/* Timeline Container */
+.timeline {
+    /* margin-bottom: -10px; */
+    /* padding: 20px; */
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 1px solid #828282;
+    height: 290px
+  }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    top: -18px;
+    margin: 20px 0 2px 20px;
+    padding: 10px;
+    color: gray;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Title of the card */
+  .title {
+    color: #828282;
+    position: relative;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .title-active{
+    color: #333333;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background: #828282;
+    border-radius: 50%;
+    left: -36px;
+    top: 1px;
+/*   border: 3px solid #828282; */
+}
+  .title-active::before{
+    background: #333333;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -38px;
+}
+
+/* bototm_sec */
+.bottom{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   gap: 50px;
+    margin-left: 480px;
+    margin-top: 30px;
+}
+.bottom-right img{
+   height: 180px;
+}
+.bottom-right h1{
+    font-family: "BIZ UDMincho";
+    font-size: 80px;
+    color: #333333;
+    margin-bottom: -40px;
+}
+.bottom-right p{
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    color: #292727;
+    margin-bottom: 20px;
+}
+.arrow img{
+   height: 100px;
+   position: relative;
+   top: -80px;
+   left: 20px;
+}
