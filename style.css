@@ -307,11 +307,10 @@ body{
         font-size: 45px;
     }
     .social{
-        display: flex;
         position: absolute;
-        top: 65%;
+        top: 10%;
         gap: 60px;
-        left: 55%;
+        left: 5%;
     }
     .social a img{
         height: 20px;
@@ -348,6 +347,9 @@ body{
     .bottom-right img{
         height: 120px;
      }
+     .social {
+        margin-top: 50px;
+     }
 }
 @media  screen and (max-width: 1031px){
     .big-img{
@@ -356,6 +358,7 @@ body{
     .bottom{
         display: flex;
         margin-right: 8%;
+        margin-top: 10px;
     }
 }
 @media  screen and (max-width: 888px){
@@ -389,8 +392,10 @@ body{
    }
    .social{
     position: absolute;
-    left: 250px;
-   }
+    top: 10%;
+    gap: 60px;
+    left: 5%;
+}
 }
 @media  screen and (max-width: 650px) {
     
@@ -415,15 +420,26 @@ body{
     }
     .social{
         position: absolute;
-        left: 150px;
-       }
+        top: 10%;
+        gap: 60px;
+        left: 5%;
+    }
+    .big-img{
+        height: 750px;
+    }
 }
 @media screen and (max-width: 490px){
+    body{
+        overflow-x: hidden;
+    }
     .big-text {
         font-size: 32px;
         margin-top: 20px;
         position: relative;
         left: -110px;
+    }
+    .big-img{
+        height: 680px;
     }
     .small-text{
         margin-top: 180px;
@@ -431,8 +447,10 @@ body{
     }
     .social{
         position: absolute;
-        left: 80px;
-       }
+        top: 10%;
+        gap: 60px;
+        left: 5%;
+    }
        .bottom{
         display: flex;
         flex-direction: column-reverse;
