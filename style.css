@@ -459,3 +459,14 @@ body{
         right: -60px;
        }
 }
+@media screen and (max-width: 400px){
+    .big-img{
+        height: 600px;
+    }
+    .social{
+        position: absolute;
+        top: 12%;
+        gap: 60px;
+        left: 5%;
+    }
+}
