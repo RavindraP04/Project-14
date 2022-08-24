@@ -61,7 +61,6 @@ body{
     top: 0;
     left: 0;
     z-index: -1;
-
 }
 .social{
     position: relative;
@@ -126,10 +125,6 @@ body{
 
 /* timeline */
 /* Timeline Container */
-.timeline {
-    /* margin-bottom: -10px; */
-    /* padding: 20px; */
-  }
   
   /* Outer Layer with the timeline border */
   .outer {
@@ -196,8 +191,8 @@ body{
     margin-top: 30px;
 }
 .bottom-right img{
-   height: 180px;
-}
+    height: 180px;
+ }
 .bottom-right h1{
     font-family: "BIZ UDMincho";
     font-size: 80px;
@@ -216,4 +211,233 @@ body{
    position: relative;
    top: -80px;
    left: 20px;
+}
+
+@media screen and (max-width: 1294px) {
+    .big-text{
+        font-size: 45px;
+    }
+    .line{
+        width: 20%;
+    }
+    .big-text{
+        position: relative;
+        left: 16%;
+    }
+    .small-text{
+        position: relative;
+        left: 19%;
+    }
+    .bottom{
+        display: flex;
+        gap: 40px;
+         margin-top: 40px;
+     }
+     .bottom-right img{
+        height: 150px;
+     }
+     .bottom-right h1{
+        font-size: 70px;
+    }
+    .bottom-right p{
+        font-size: 15px;
+    }
+    .arrow img{
+        height: 100px;
+        position: relative;
+        top: -50px;
+        left: 40px;
+     }
+     .card{
+        margin: 10px 0 2px 20px;
+     }
+     .outer{
+        height: 250px;
+     }
+     .bottom{
+        margin-top: 90px;
+     }
+}
+@media screen and (max-width: 1242px){
+    .big-text{
+        font-size: 45px;
+        left: 18%;
+    }
+}
+@media screen and (max-width: 1222px){
+    .big-text{
+        font-size: 40px;
+        left: 18%;
+    }
+    .line{
+        width: 17%;
+    }
+    .social a{
+        margin-left: 0px;
+    }
+    .arrow img{
+        position: relative;
+        left: 0px;
+     }
+     .bottom-right img{
+        height: 140px;
+     }
+     .bottom-right h1{
+        font-size: 60px;
+    }
+    .bottom-right p{
+        font-size: 14px;
+    }
+    .arrow img{
+        height: 90px;
+    }
+    .card{
+        margin: 8px 0 2px 20px;
+     }
+     .outer{
+        height: 220px;
+     }
+     .bottom{
+        margin-top: 120px;
+        margin-left: 520px;
+     }
+}
+@media  screen and (max-width: 1156px) {
+    .big-text{
+        font-size: 45px;
+    }
+    .social{
+        display: flex;
+        position: absolute;
+        top: 65%;
+        gap: 60px;
+        left: 55%;
+    }
+    .social a img{
+        height: 20px;
+    }
+    .arrow img {
+        display: none;
+    }
+    .small-text{
+        position: relative;
+        left: 0;
+        margin-top: 170px;
+    }
+    .hero{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 7%;
+        margin-left: 90px;
+        margin-top: -20px;
+    }
+    .line{
+        display: none;
+    }
+    .title{
+        font-size: 13px;
+    }
+}
+@media  screen and (max-width: 1156px){
+    .big-text{
+        font-size: 40px;
+    }
+    .small-text button{
+        padding: 17px 35px;
+    }
+    .bottom-right img{
+        height: 120px;
+     }
+}
+@media  screen and (max-width: 1031px){
+    .big-img{
+        opacity: 30%;
+    }
+    .bottom{
+        display: flex;
+        margin-right: 8%;
+    }
+}
+@media  screen and (max-width: 888px){
+    .bottom{
+        display: flex;
+        margin-right: 30%;
+    }
+    .bottom-right h1{
+        font-size: 55px;
+    }
+    .bottom-right p{
+        font-size: 13px;
+        text-align: left;
+    }
+    .bottom{
+        position: absolute;
+        right: -180px;
+    }
+}
+@media  screen and (max-width: 711px){
+    .nav-lists a{
+        display: none;
+    }   
+    .nav-lists i{
+        display: block;
+        cursor: pointer;
+    }
+   .small-text button{
+    font-size: 12px;
+    padding: 15px 25px;
+   }
+   .social{
+    position: absolute;
+    left: 250px;
+   }
+}
+@media  screen and (max-width: 650px) {
+    
+    .small-text h2{
+        max-width: 70px;
+        padding-bottom: 40px;
+    }
+    .small-text button{
+        font-size: 10px;
+        padding: 15px 20px;
+    }
+}
+@media screen and (max-width: 614px) {
+    .big-text{
+        margin-top: 30px;
+        position: relative;
+        left: -100px;
+    }
+    .small-text{
+        margin-top: 220px;
+        margin-left: -200px;
+    }
+    .social{
+        position: absolute;
+        left: 150px;
+       }
+}
+@media screen and (max-width: 490px){
+    .big-text {
+        font-size: 32px;
+        margin-top: 20px;
+        position: relative;
+        left: -110px;
+    }
+    .small-text{
+        margin-top: 180px;
+        margin-left: -250px;
+    }
+    .social{
+        position: absolute;
+        left: 80px;
+       }
+       .bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        position: absolute;
+        right: -60px;
+       }
 }
